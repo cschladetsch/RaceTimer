@@ -1,12 +1,15 @@
 # Race Timer
 
-Time from when RC car moves to when (same) car returns. Only one car on circuit at a time.
+Time from when RC car moves to when (same) car returns. 
 
-Add obstacles for lap.
+* Target is Arduino, with a view to using Pi.
+* Only one car on circuit at a time.
 
-Target is drift cars.
+* Add obstacles for lap.
 
-Add Lap Time, Slowest and Fastest Lap times.
+* Target is drift cars.
+
+* Add Lap Time, Slowest and Fastest Lap times.
 
 Have fun with friends trying to get fastest time using drifting on Veterra Nissan GT3!
 
