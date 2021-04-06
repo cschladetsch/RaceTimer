@@ -21,18 +21,19 @@ Maybe Bluetooth app for phones?
 
 * Make sure car slows down to < 10m/s to record an 'end'
   * Sensor has about 25/s sampling time, up to 400cm. Would have to be reduced to 200cm at most.
-  * That means a length of 36cm could be missed. Most cars are shorter than this.
+  * That means a length of 36cm could be missed. Many cars are shorter than this.
+    * Mine is about 38cm.
     * Either increase poll frequency (not possible cheaply), or
     * Make cars longer. Not possible, or
-    * Make cars have to travel slower to register with sensor (ding ding ding)
-    * This could actually be cool: force drivers to slow down to register end of race
-    * Takes skill to reach to optimal slowest speed
+    * Make cars have to travel slower to register with sensor (ding ding ding!)
+      * This could actually be cool: force drivers to slow down to register end of race
+      * Takes skill to reach to optimal slowest speed
 * How to distinguish cars?
   * Use Printed QR codes to recognise cars
     * Requires more sensors on unit, and lots of extra code
     * How to print the QR codes?
     * Have a label maker - would that be useful?
-  * >>> name <<<
+  * \>>> name <<<
     * Use `dlib` to recognise given markers like <<< and >>> and start and end
     * Could work on Arduino but not Pi
     * Can be printed on a label-maker on field
